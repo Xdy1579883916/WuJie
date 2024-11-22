@@ -1,17 +1,17 @@
 {
-  "name": "pkg-placeholder",
+  "name": "@dy-kit/wujie",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@9.4.0",
-  "description": "_description_",
+  "description": "修改自腾讯无界, 提供了初始化函数",
   "author": "XiaDeYu <1579883916@qq.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Xdy1579883916/pkg-placeholder#readme",
+  "homepage": "https://github.com/Xdy1579883916/WuJie#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xdy1579883916/pkg-placeholder.git"
+    "url": "git+https://github.com/Xdy1579883916/WuJie.git"
   },
-  "bugs": "https://github.com/Xdy1579883916/pkg-placeholder/issues",
+  "bugs": "https://github.com/Xdy1579883916/WuJie/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
