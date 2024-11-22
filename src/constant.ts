@@ -22,7 +22,7 @@ export const WUJIE_CONFIG: WujieConfig = {
   DATA_ATTACH_CSS_FLAG: 'data-shadow-attach-css-flag',
 }
 
-export function mergeConfig(config?: WujieConfig) {
+export function mergeConfig(config?: Partial<WujieConfig>) {
   return Object.assign(WUJIE_CONFIG, config || {})
 }
 
