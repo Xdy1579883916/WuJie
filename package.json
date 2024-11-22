@@ -1,7 +1,7 @@
 {
   "name": "@dy-kit/wujie",
   "type": "module",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "packageManager": "pnpm@9.4.0",
   "description": "修改自腾讯无界, 提供了初始化函数",
   "author": "XiaDeYu <1579883916@qq.com>",
