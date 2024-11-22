@@ -157,7 +157,7 @@ export type cacheOptions = Omit<preOptions & startOptions, optionProperty> &
 
 let initFlag = false
 // 全局运行一次的初始化逻辑, 暴露出去给用户选择初始化时机
-export function init(config?: WujieConfig) {
+export function init(config?: Partial<WujieConfig>) {
   if (initFlag) {
     warn(WUJIE_TIPS_INIT_REPEAT)
     return
