@@ -26,7 +26,7 @@ init({
 ```vue
 <script>
 import {defineComponent, h} from 'vue'
-import {bus, startApp} from "wujie";
+import {bus, startApp} from "@dy-kit/wujie";
 
 export default defineComponent({
   name: "WuJie",
